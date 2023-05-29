@@ -67,6 +67,10 @@ def insert_row_snowflake(new_fruit):
 add_my_fruit = streamlit.text_input('What fruit would you like to add?')
 if streamlit.button('Add a Fruit to the list'):
     my_cnx = snowflake = insert_row_snowflake(add_my_fruit)
+    my_cnx =snowflake= insert_row_snowflake("jackfruit")
+    my_cnx =snowflake=insert_row_snowflake("papaya")
+    my_cnx =snowflake=insert_row_snowflake("guava")
+    my_cnx =snowflake=insert_row_snowflake("kiwi")
     streamlit.text(back_from_function)
 
 
